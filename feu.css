@@ -1,0 +1,74 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle {
+    width: 100px;
+    height: 250px;
+    background-color: rgb(16, 1, 1);
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    position: relative;
+}
+
+.rond {
+    background-color: rgb(84, 84, 84);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+
+}
+
+.rond2 {
+    background-color: rgb(63, 63, 63);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.rond3 {
+    background-color: rgb(70, 70, 70);
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
+
+.rond4 {
+    position: absolute;
+    top: 20px;
+    left: 15px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: red;
+    animation: animation 3s infinite;
+}
+
+@keyframes animation {
+
+    0%,
+    33% {
+        background-color: red;
+        transform: translateY(-10px);
+    }
+
+    34%,
+    77% {
+        background-color: green;
+        transform: translateY(150px);
+    }
+
+    78%,
+    100% {
+        background-color: yellow;
+        transform: translateY(70px);
+    }
+}

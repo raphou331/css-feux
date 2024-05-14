@@ -1,0 +1,48 @@
+body {
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carre {
+    border: 2px solid;
+    width: 400px;
+    height: 400px;
+    background-color: rgba(64, 195, 84, 0.305);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.rond {
+    background-color: white;
+    width: 380px;
+    height: 380px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    opacity: 0.7;
+}
+
+.carre1 {
+    width: 270px;
+    height: 270px;
+    background-color: rgba(216, 26, 26, 0.233);
+    opacity: 0.4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.triangle{
+width: 0;
+height: 0;
+/* pour la pointe vers le haut */
+border-left: 135px solid transparent;
+border-right: 135px solid transparent;
+border-bottom: 270px solid rgb(42, 11, 180);
+}
